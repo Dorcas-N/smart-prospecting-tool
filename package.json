@@ -1,0 +1,27 @@
+{
+  "name": "smart-prospecting-tool",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered ICP generation, prospect finding & personalized outreach",
+  "author": "Dorcas Ndembo",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && git add dist && git commit -m 'Deploy: Build files' && git push origin main"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.48.0",
+    "lucide-react": "^0.368.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.2.10"
+  }
+}
