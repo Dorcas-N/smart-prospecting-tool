@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Zap, Copy, CheckCircle, AlertCircle } from "lucide-react";
-import { analyzeWebsite } from "../services/supabase";
-import { ICP } from "../types";
+import { analyzeWebsite } from "./supabase";
+import { ICP } from "./types";
 
 interface ICPGeneratorProps {
   language: string;

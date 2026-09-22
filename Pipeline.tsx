@@ -7,7 +7,7 @@ import {
   XCircle,
   Clock,
 } from "lucide-react";
-import { PipelineEntry } from "../types";
+import { PipelineEntry } from "./types";
 
 interface PipelineProps {
   language: string;

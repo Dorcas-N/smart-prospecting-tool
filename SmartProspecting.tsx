@@ -10,8 +10,8 @@ import {
   ExternalLink,
   TrendingUp,
 } from "lucide-react";
-import { getProspectsForDay, generatePersonalizedMessage } from "../services/supabase";
-import { ICP, Prospect, PersonalizedMessage } from "../types";
+import { getProspectsForDay, generatePersonalizedMessage } from "./supabase";
+import { ICP, Prospect, PersonalizedMessage } from "./types";
 
 interface SmartProspectingProps {
   icp: ICP | null;
