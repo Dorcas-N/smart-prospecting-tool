@@ -1,5 +1,5 @@
-import React, { useState } from "./react";
-import { Zap, Users, TrendingUp } from "./lucide-react";
+import React, { useState } from "react";
+import { Zap, Users, TrendingUp } from "lucide-react";
 import ICPGenerator from "./ICPGenerator";
 import SmartProspecting from "./SmartProspecting";
 import Pipeline from "./Pipeline";
