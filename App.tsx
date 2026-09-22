@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Zap, Users, TrendingUp } from "lucide-react";
-import ICPGenerator from "./components/ICPGenerator";
-import SmartProspecting from "./components/SmartProspecting";
-import Pipeline from "./components/Pipeline";
-import LanguageSwitcher from "./components/LanguageSwitcher";
+import ICPGenerator from "ICPGenerator";
+import SmartProspecting from "SmartProspecting";
+import Pipeline from "Pipeline";
+import LanguageSwitcher from "LanguageSwitcher";
 import { ICP } from "./types";
 import "./App.css";
 
