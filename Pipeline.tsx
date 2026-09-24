@@ -110,10 +110,10 @@ const translations = {
   },
 };
 
-const t = translations[language as keyof typeof translations] || translations.en;
 
 export const Pipeline: React.FC<PipelineProps> = ({ language }) => {
   const [entries, setEntries] = useState<PipelineEntry[]>([]);
+  const t = translations[language as keyof typeof translations] || translations.en;
   const [filterStatus, setFilterStatus] = useState<string>("all");
 
   // Load from localStorage on mount

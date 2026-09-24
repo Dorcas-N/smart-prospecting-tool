@@ -86,12 +86,12 @@ const translations = {
   },
 };
 
-const t = translations[language as keyof typeof translations] || translations.en;
-
 export const ICPGenerator: React.FC<ICPGeneratorProps> = ({
   language,
   onICPGenerated,
 }) => {
+  const t = translations[language as keyof typeof translations] || translations.en;
+
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const [icp, setIcp] = useState<ICP | null>(null);
